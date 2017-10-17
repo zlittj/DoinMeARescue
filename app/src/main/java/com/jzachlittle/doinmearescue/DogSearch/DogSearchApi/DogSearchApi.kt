@@ -1,8 +1,12 @@
 package com.jzachlittle.doinmearescue.DogSearch.DogSearchApi
 
+import retrofit2.Call
+import retrofit2.http.GET
+import retrofit2.http.QueryMap
 
-class DogSearchApi {
 
+interface DogSearchInterface {
 
-
+    @GET("/breed.list")
+    fun breedList(@QueryMap map: Map<String, String>): Call<DogoSearchResponse>
 }

@@ -4,7 +4,6 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
-apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 26
@@ -25,6 +24,10 @@ android {
     }
 }
 
+kapt {
+    generateStubs = true
+}
+
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
@@ -36,6 +39,7 @@ dependencies {
     })
     //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.19.1'
     //Mosby
     compile 'com.hannesdorfmann.mosby3:mvp:3.0.4'
     //Dagger
@@ -49,4 +53,10 @@ dependencies {
     //Moshi GSON converter
     compile 'com.squareup.moshi:moshi:1.5.0'
     compile 'com.squareup.moshi:moshi-kotlin:1.5.0'
+    //Google GSON
+    compile 'com.google.code.gson:gson:2.8.1'
+    //Picasso
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    //Kotlin-Coroutines_Retrofit
+    compile 'ru.gildor.coroutines:kotlin-coroutines-retrofit:0.8.2'
 }

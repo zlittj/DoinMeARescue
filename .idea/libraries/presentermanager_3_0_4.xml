@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="presentermanager-3.0.4">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/presentermanager-3.0.4.aar/9f55b0be96309dc93971675a49fb341f/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/presentermanager-3.0.4.aar/9f55b0be96309dc93971675a49fb341f/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/presentermanager-3.0.4.aar/74149432ff6ca5680dfb3c36e734c08d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/presentermanager-3.0.4.aar/74149432ff6ca5680dfb3c36e734c08d/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
