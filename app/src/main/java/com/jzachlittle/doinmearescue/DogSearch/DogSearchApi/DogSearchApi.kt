@@ -5,8 +5,8 @@ import retrofit2.http.GET
 import retrofit2.http.QueryMap
 
 
-interface DogSearchInterface {
+interface DogSearchApi {
 
     @GET("/breed.list")
-    fun breedList(@QueryMap map: Map<String, String>): Call<DogoSearchResponse>
+    fun breedList(@QueryMap map: Map<String, Int>): Call<DogoSearchResponse>
 }
