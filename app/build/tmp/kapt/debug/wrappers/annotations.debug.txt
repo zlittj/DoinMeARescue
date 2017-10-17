@@ -1,0 +1,471 @@
+a javax.inject.Singleton 0
+p com.jzachlittle.doinmearescue.DaggerModules 0
+m 0 0/AppModule provideContext
+m 0 0/DogFinderRetrofitModule provideHttpClient
+m 0 0/DogFinderRetrofitModule provideDogFinderRetrofit
+m 0 0/DogSearchModule provideDogSearchPresenter
+c 0 0/AppComponent
+m 0 0/AppComponent dogSearchPresenter
+a dagger.Component 1
+c 1 0/AppComponent
+a dagger.Module 2
+c 2 0/AppModule
+c 2 0/DogFinderRetrofitModule
+c 2 0/DogSearchModule
+a dagger.Provides 3
+m 3 0/AppModule provideContext
+m 3 0/DogFinderRetrofitModule provideHttpClient
+m 3 0/DogFinderRetrofitModule provideDogFinderRetrofit
+m 3 0/DogSearchModule provideDogSearchPresenter
+a org.jetbrains.annotations.NotNull 4
+m 4 0/AppModule provideContext
+p com.jzachlittle.doinmearescue.Extensions 1
+m 4 1/ViewGroupExtensionsUtils inflate
+p com.jzachlittle.doinmearescue.Login 2
+m 4 2/LoginActivity createPresenter
+p com.jzachlittle.doinmearescue.DogSearch.DogSearchApi 3
+m 4 3/DogSearchApi breedList
+f 4 3/DogoSearchResponse data
+m 4 3/DogoSearchResponse getData
+f 4 3/DogoData encoding
+m 4 3/DogoData getEncoding
+f 4 3/DogoData version
+m 4 3/DogoData getVersion
+f 4 3/DogoData petfinder
+m 4 3/DogoData getPetfinder
+m 4 3/DogoData component1
+m 4 3/DogoData component2
+m 4 3/DogoData component3
+m 4 3/DogoData copy
+m 4 3/DogoData copy$default
+f 4 3/Petfinder xmlnsxsi
+m 4 3/Petfinder getXmlnsxsi
+f 4 3/Petfinder lastOffset
+m 4 3/Petfinder getLastOffset
+f 4 3/Petfinder pets
+m 4 3/Petfinder getPets
+f 4 3/Petfinder header
+m 4 3/Petfinder getHeader
+f 4 3/Petfinder xsinoNamespaceSchemaLocation
+m 4 3/Petfinder getXsinoNamespaceSchemaLocation
+m 4 3/Petfinder component1
+m 4 3/Petfinder component2
+m 4 3/Petfinder component3
+m 4 3/Petfinder component4
+m 4 3/Petfinder component5
+m 4 3/Petfinder copy
+m 4 3/Petfinder copy$default
+f 4 3/LastOffset t
+m 4 3/LastOffset getT
+m 4 3/LastOffset component1
+m 4 3/LastOffset copy
+m 4 3/LastOffset copy$default
+f 4 3/Pets pet
+m 4 3/Pets getPet
+m 4 3/Pets component1
+m 4 3/Pets copy
+m 4 3/Pets copy$default
+f 4 3/Pet options
+m 4 3/Pet getOptions
+f 4 3/Pet status
+m 4 3/Pet getStatus
+f 4 3/Pet contact
+m 4 3/Pet getContact
+f 4 3/Pet age
+m 4 3/Pet getAge
+f 4 3/Pet size
+m 4 3/Pet getSize
+f 4 3/Pet media
+m 4 3/Pet getMedia
+f 4 3/Pet id
+m 4 3/Pet getId
+f 4 3/Pet shelterPetId
+m 4 3/Pet getShelterPetId
+f 4 3/Pet breeds
+m 4 3/Pet getBreeds
+f 4 3/Pet name
+m 4 3/Pet getName
+f 4 3/Pet sex
+m 4 3/Pet getSex
+f 4 3/Pet description
+m 4 3/Pet getDescription
+f 4 3/Pet mix
+m 4 3/Pet getMix
+f 4 3/Pet shelterId
+m 4 3/Pet getShelterId
+f 4 3/Pet lastUpdate
+m 4 3/Pet getLastUpdate
+f 4 3/Pet animal
+m 4 3/Pet getAnimal
+m 4 3/Pet component1
+m 4 3/Pet component2
+m 4 3/Pet component3
+m 4 3/Pet component4
+m 4 3/Pet component5
+m 4 3/Pet component6
+m 4 3/Pet component7
+m 4 3/Pet component8
+m 4 3/Pet component9
+m 4 3/Pet component10
+m 4 3/Pet component11
+m 4 3/Pet component12
+m 4 3/Pet component13
+m 4 3/Pet component14
+m 4 3/Pet component15
+m 4 3/Pet component16
+m 4 3/Pet copy
+m 4 3/Pet copy$default
+f 4 3/Breeds breed
+m 4 3/Breeds getBreed
+m 4 3/Breeds component1
+m 4 3/Breeds copy
+m 4 3/Breeds copy$default
+f 4 3/Breed t
+m 4 3/Breed getT
+m 4 3/Breed component1
+m 4 3/Breed copy
+m 4 3/Breed copy$default
+f 4 3/Id t
+m 4 3/Id getT
+m 4 3/Id component1
+m 4 3/Id copy
+m 4 3/Id copy$default
+f 4 3/Size t
+m 4 3/Size getT
+m 4 3/Size component1
+m 4 3/Size copy
+m 4 3/Size copy$default
+f 4 3/ShelterPetId t
+m 4 3/ShelterPetId getT
+m 4 3/ShelterPetId component1
+m 4 3/ShelterPetId copy
+m 4 3/ShelterPetId copy$default
+f 4 3/Age t
+m 4 3/Age getT
+m 4 3/Age component1
+m 4 3/Age copy
+m 4 3/Age copy$default
+f 4 3/Mix t
+m 4 3/Mix getT
+m 4 3/Mix component1
+m 4 3/Mix copy
+m 4 3/Mix copy$default
+f 4 3/ShelterId t
+m 4 3/ShelterId getT
+m 4 3/ShelterId component1
+m 4 3/ShelterId copy
+m 4 3/ShelterId copy$default
+f 4 3/Name t
+m 4 3/Name getT
+m 4 3/Name component1
+m 4 3/Name copy
+m 4 3/Name copy$default
+f 4 3/Description t
+m 4 3/Description getT
+m 4 3/Description component1
+m 4 3/Description copy
+m 4 3/Description copy$default
+f 4 3/LastUpdate t
+m 4 3/LastUpdate getT
+m 4 3/LastUpdate component1
+m 4 3/LastUpdate copy
+m 4 3/LastUpdate copy$default
+f 4 3/Media photos
+m 4 3/Media getPhotos
+m 4 3/Media component1
+m 4 3/Media copy
+m 4 3/Media copy$default
+f 4 3/Photos photo
+m 4 3/Photos getPhoto
+m 4 3/Photos component1
+m 4 3/Photos copy
+m 4 3/Photos copy$default
+f 4 3/Photo size
+m 4 3/Photo getSize
+f 4 3/Photo t
+m 4 3/Photo getT
+f 4 3/Photo id
+m 4 3/Photo getId
+m 4 3/Photo component1
+m 4 3/Photo component2
+m 4 3/Photo component3
+m 4 3/Photo copy
+m 4 3/Photo copy$default
+f 4 3/Sex t
+m 4 3/Sex getT
+m 4 3/Sex component1
+m 4 3/Sex copy
+m 4 3/Sex copy$default
+f 4 3/Animal t
+m 4 3/Animal getT
+m 4 3/Animal component1
+m 4 3/Animal copy
+m 4 3/Animal copy$default
+f 4 3/Contact phone
+m 4 3/Contact getPhone
+f 4 3/Contact state
+m 4 3/Contact getState
+f 4 3/Contact address2
+m 4 3/Contact getAddress2
+f 4 3/Contact email
+m 4 3/Contact getEmail
+f 4 3/Contact city
+m 4 3/Contact getCity
+f 4 3/Contact zip
+m 4 3/Contact getZip
+f 4 3/Contact fax
+m 4 3/Contact getFax
+f 4 3/Contact address1
+m 4 3/Contact getAddress1
+m 4 3/Contact component1
+m 4 3/Contact component2
+m 4 3/Contact component3
+m 4 3/Contact component4
+m 4 3/Contact component5
+m 4 3/Contact component6
+m 4 3/Contact component7
+m 4 3/Contact component8
+m 4 3/Contact copy
+m 4 3/Contact copy$default
+f 4 3/City t
+m 4 3/City getT
+m 4 3/City component1
+m 4 3/City copy
+m 4 3/City copy$default
+f 4 3/Zip t
+m 4 3/Zip getT
+m 4 3/Zip component1
+m 4 3/Zip copy
+m 4 3/Zip copy$default
+f 4 3/State t
+m 4 3/State getT
+m 4 3/State component1
+m 4 3/State copy
+m 4 3/State copy$default
+f 4 3/Email t
+m 4 3/Email getT
+m 4 3/Email component1
+m 4 3/Email copy
+m 4 3/Email copy$default
+f 4 3/Address1 t
+m 4 3/Address1 getT
+m 4 3/Address1 component1
+m 4 3/Address1 copy
+m 4 3/Address1 copy$default
+f 4 3/Address2 t
+m 4 3/Address2 getT
+m 4 3/Address2 component1
+m 4 3/Address2 copy
+m 4 3/Address2 copy$default
+f 4 3/Fax t
+m 4 3/Fax getT
+m 4 3/Fax component1
+m 4 3/Fax copy
+m 4 3/Fax copy$default
+f 4 3/Phone t
+m 4 3/Phone getT
+m 4 3/Phone component1
+m 4 3/Phone copy
+m 4 3/Phone copy$default
+f 4 3/Options t
+m 4 3/Options getT
+m 4 3/Options component1
+m 4 3/Options copy
+m 4 3/Options copy$default
+f 4 3/Header timestamp
+m 4 3/Header getTimestamp
+f 4 3/Header status
+m 4 3/Header getStatus
+f 4 3/Header version
+m 4 3/Header getVersion
+m 4 3/Header component1
+m 4 3/Header component2
+m 4 3/Header component3
+m 4 3/Header copy
+m 4 3/Header copy$default
+f 4 3/Version t
+m 4 3/Version getT
+m 4 3/Version component1
+m 4 3/Version copy
+m 4 3/Version copy$default
+f 4 3/Timestamp t
+m 4 3/Timestamp getT
+m 4 3/Timestamp component1
+m 4 3/Timestamp copy
+m 4 3/Timestamp copy$default
+f 4 3/Status message
+m 4 3/Status getMessage
+f 4 3/Status code
+m 4 3/Status getCode
+m 4 3/Status component1
+m 4 3/Status component2
+m 4 3/Status copy
+m 4 3/Status copy$default
+f 4 3/Code t
+m 4 3/Code getT
+m 4 3/Code component1
+m 4 3/Code copy
+m 4 3/Code copy$default
+f 4 3/Message t
+m 4 3/Message getT
+m 4 3/Message component1
+m 4 3/Message copy
+m 4 3/Message copy$default
+m 4 0/DogFinderRetrofitModule provideHttpClient
+m 4 0/DogFinderRetrofitModule provideDogFinderRetrofit
+p com.jzachlittle.doinmearescue.DogSearch 4
+m 4 4/DogSearchPresenter getDogData
+m 4 0/DogSearchModule provideDogSearchPresenter
+m 4 4/DogSearchFragment createPresenter
+m 4 0/AppComponent dogSearchPresenter
+p com.jzachlittle.doinmearescue 5
+f 4 5/RescueApplication appComponent
+p com.jzachlittle.doinmearescue.RescueApplication 6
+m 4 6/Companion getAppComponent
+a kotlin.jvm.JvmName 5
+c 5 1/ViewGroupExtensionsUtils
+a kotlin.reflect.jvm.internal.impl.javax.inject.Inject 6
+m 6 3/DogRestApi <init>
+m 6 4/DogSearchPresenter <init>
+a org.jetbrains.annotations.Nullable 7
+m 7 4/DogSearchPresenter getResponse
+m 7 4/DogSearchFragment onCreateView
+a retrofit2.http.GET 8
+m 8 3/DogSearchApi breedList
+a com.google.gson.annotations.SerializedName 9
+f 9 3/DogoData encoding
+f 9 3/DogoData version
+f 9 3/DogoData petfinder
+f 9 3/Petfinder xmlnsxsi
+f 9 3/Petfinder lastOffset
+f 9 3/Petfinder pets
+f 9 3/Petfinder header
+f 9 3/Petfinder xsinoNamespaceSchemaLocation
+f 9 3/LastOffset t
+f 9 3/Pets pet
+f 9 3/Pet options
+f 9 3/Pet status
+f 9 3/Pet contact
+f 9 3/Pet age
+f 9 3/Pet size
+f 9 3/Pet media
+f 9 3/Pet id
+f 9 3/Pet shelterPetId
+f 9 3/Pet breeds
+f 9 3/Pet name
+f 9 3/Pet sex
+f 9 3/Pet description
+f 9 3/Pet mix
+f 9 3/Pet shelterId
+f 9 3/Pet lastUpdate
+f 9 3/Pet animal
+f 9 3/Breeds breed
+f 9 3/Breed t
+f 9 3/Id t
+f 9 3/Size t
+f 9 3/ShelterPetId t
+f 9 3/Age t
+f 9 3/Mix t
+f 9 3/ShelterId t
+f 9 3/Name t
+f 9 3/Description t
+f 9 3/LastUpdate t
+f 9 3/Media photos
+f 9 3/Photos photo
+f 9 3/Photo size
+f 9 3/Photo t
+f 9 3/Photo id
+f 9 3/Sex t
+f 9 3/Animal t
+f 9 3/Contact phone
+f 9 3/Contact state
+f 9 3/Contact address2
+f 9 3/Contact email
+f 9 3/Contact city
+f 9 3/Contact zip
+f 9 3/Contact fax
+f 9 3/Contact address1
+f 9 3/City t
+f 9 3/Zip t
+f 9 3/State t
+f 9 3/Email t
+f 9 3/Address1 t
+f 9 3/Address2 t
+f 9 3/Fax t
+f 9 3/Phone t
+f 9 3/Options t
+f 9 3/Header timestamp
+f 9 3/Header status
+f 9 3/Header version
+f 9 3/Version t
+f 9 3/Timestamp t
+f 9 3/Status message
+f 9 3/Status code
+f 9 3/Code t
+f 9 3/Message t
+p com.jzachlittle.doinmearescue.DaggerModules.AppComponent 7
+d 7/DefaultImpls
+d 0/AppModule
+d 1/ViewGroupExtensionsUtils
+p com.jzachlittle.doinmearescue.GenericApi 8
+d 8/Petfinder
+d 8/Response
+d 2/LoginActivity
+d 2/LoginPresenter
+d 2/LoginView
+p com.jzachlittle.doinmearescue.Login.LoginView 9
+d 9/DefaultImpls
+d 4/DogSearchView
+p com.jzachlittle.doinmearescue.DogSearch.DogSearchView 10
+d 10/DefaultImpls
+d 4/DogoViewModel
+d 3/DogSearchApi
+p com.jzachlittle.doinmearescue.DogSearch.DogSearchApi.DogSearchApi 11
+d 11/DefaultImpls
+d 3/DogoSearchResponse
+d 3/DogoData
+d 3/Petfinder
+d 3/LastOffset
+d 3/Pets
+d 3/Pet
+d 3/Breeds
+d 3/Breed
+d 3/Id
+d 3/Size
+d 3/ShelterPetId
+d 3/Age
+d 3/Mix
+d 3/ShelterId
+d 3/Name
+d 3/Description
+d 3/LastUpdate
+d 3/Media
+d 3/Photos
+d 3/Photo
+d 3/Sex
+d 3/Animal
+d 3/Contact
+d 3/City
+d 3/Zip
+d 3/State
+d 3/Email
+d 3/Address1
+d 3/Address2
+d 3/Fax
+d 3/Phone
+d 3/Options
+d 3/Header
+d 3/Version
+d 3/Timestamp
+d 3/Status
+d 3/Code
+d 3/Message
+d 5/MainActivity
+d 3/DogRestApi
+d 0/DogFinderRetrofitModule
+d 4/DogSearchPresenter
+d 0/DogSearchModule
+d 4/DogSearchFragment
+d 0/AppComponent
+d 5/RescueApplication
+d 6/Companion
